@@ -11,8 +11,16 @@
       }
       .page {
       
-        margin-bottom: -5px;
+        margin-bottom: -4px;
       }
+      /* 在苹果手机上覆盖 margin-bottom */
+      @media only screen and (max-device-width: 480px) {
+        /* 你可以根据需要调整媒体查询的条件 */
+        .page {
+          margin-bottom: -5px;
+        }
+      }
+
     </style>
   </head>
   <body>
